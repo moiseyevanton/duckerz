@@ -1,4 +1,4 @@
-# Web
+# Web 🌐
 
 Раздел с writeup-отчетами по веб-задачам платформы [Duckerz](https://duckerz.ru/).
 
@@ -11,20 +11,21 @@
 
 ---
 
-## Решенные задачи
+## Решенные задачи ✅
 
 | Задача | Сложность | Описание | Ссылка |
 |---|---|---|---|
 | Cookies with milk | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Cookie tampering: base64-декодирование сессии и подмена `status` на `admin` | [Открыть](./Cookieswithmilk/) |
+| Web polygon | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Получение частей флага через разные HTTP-методы и GET-параметр на `/flag` | [Открыть](./webpolygon/) |
 
 ---
 
-## Прогресс
+## Прогресс 📈
 
 ```text
-1/33
+2/33
 ```
 
 ---
 
-Автор: **masquadd :)**
+Автор: **masquadd :)** ✍️
