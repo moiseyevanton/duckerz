@@ -115,7 +115,7 @@ curl -i http://tasks.duckerz.ru:30051/dashboard \
 Внутри страницы находился флаг:
 
 ```text
-DUCKERZ{N0t_$3CR3t_c00Kie}
+DUCKERZ{...}
 ```
 
 ## Почему это сработало 🧠
@@ -184,7 +184,7 @@ Broken Access Control
 Флаг:
 
 ```text
-DUCKERZ{N0t_$3CR3t_c00Kie}
+DUCKERZ{...}
 ```
 
 Краткая цепочка решения:
