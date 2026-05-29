@@ -13,14 +13,17 @@
 
 ## Решенные задачи ✅
 
-Пока решенных задач в этой категории нет.
+| Задача | Сложность | Описание | Ссылка |
+|---|---|---|---|
+| Логинатор | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Извлечение флага из URL-запросов `/flag.php/<символ>` в дампе логов | [Открыть](./Loginator/) |
+| Простой API-сервер | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск HTTP-запроса авторизации с `username=hacker` и URL-encoded флагом в pcapng-дампе | [Открыть](./simple_api/) |
 
 ---
 
 ## Прогресс 📈
 
 ```text
-0/18
+2/18
 ```
 
 ---

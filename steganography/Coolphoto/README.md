@@ -418,7 +418,7 @@ DUCKERZ{...}
 
 ## Итог 🏁
 
-На текущем этапе:
+Краткая цепочка решения:
 
 ```text
 получен PNG-файл -> file -> exiftool -> strings -> binwalk -> pngcheck -> identify -> B LSB -> flag
