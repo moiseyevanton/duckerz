@@ -25,7 +25,7 @@ https://duckerz.ru/
 | Web | 3/33 | Задачи на анализ веб-приложений, HTTP, cookies, сессий и контроля доступа | [Открыть](./web/) |
 | Reverse | 1/23 | Задачи на реверс-инжиниринг бинарных файлов и восстановление логики программ | [Открыть](./reverse/) |
 | Misc | 0/15 | Разные задачи: нестандартная логика, кодировки, файлы и небольшие расследования | [Открыть](./misc/) |
-| Cryptography | 0/20 | Задачи на шифры, кодировки, хеши и криптографические ошибки | [Открыть](./cryptography/) |
+| Cryptography | 1/20 | Задачи на шифры, кодировки, хеши и криптографические ошибки | [Открыть](./cryptography/) |
 | OSINT | 0/15 | Задачи на поиск информации в открытых источниках и анализ цифровых следов | [Открыть](./osint/) |
 | Forensics | 2/18 | Задачи на анализ файлов, дампов, трафика, артефактов и цифровых следов | [Открыть](./forensics/) |
 | PWN | 0/10 | Задачи на эксплуатацию бинарных файлов, память и низкоуровневые уязвимости | [Открыть](./pwn/) |
@@ -37,6 +37,7 @@ https://duckerz.ru/
 
 | Задача | Категория | Сложность | Описание | Ссылка |
 |---|---|---|---|---|
+| Брутфорс | Cryptography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Расшифровка текста, зашифрованного сдвигом Цезаря | [Открыть](./cryptography/Bruteforce/) |
 | Классное фото | Steganography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Визуальная LSB-стеганография в младшем бите синего канала PNG-изображения | [Открыть](./steganography/Coolphoto/) |
 | Cookies with milk | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ cookie, base64-декодирование сессии и подмена роли пользователя для доступа к админ-панели | [Открыть](./web/Cookieswithmilk/) |
 | Забытый пароль | Reverse | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ Python-скрипта с простой схемой преобразования байтов через ключ `ord()` | [Открыть](./reverse/Forgottenpassword/) |
@@ -53,6 +54,7 @@ https://duckerz.ru/
 .
 ├── README.md
 ├── cryptography/
+│   └── Bruteforce/
 ├── forensics/
 │   ├── Loginator/
 │   └── simple_api/
