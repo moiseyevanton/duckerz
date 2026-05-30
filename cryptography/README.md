@@ -16,13 +16,14 @@
 | Задача | Сложность | Описание | Ссылка |
 |---|---|---|---|
 | Брутфорс | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Расшифровка текста, зашифрованного сдвигом Цезаря | [Открыть](./Bruteforce/) |
+| Обратимость | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ hex-строк и свойства обратимости XOR | [Открыть](./Reversibility/) |
 
 ---
 
 ## Прогресс 📈
 
 ```text
-1/20
+2/20
 ```
 
 ---
