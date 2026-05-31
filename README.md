@@ -12,11 +12,6 @@
 
 Данный репозиторий содержит мои walkthrough/writeup-отчеты по задачам с платформы [Duckerz](https://duckerz.ru/).
 
----
-
-## Платформа 🚩
-
-https://duckerz.ru/
 
 ---
 
