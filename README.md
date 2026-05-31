@@ -1,13 +1,16 @@
 # DUCKERZ Writeups 🐤
 
-Данный репозиторий содержит мои walkthrough/writeup-отчеты по задачам с платформы [Duckerz](https://duckerz.ru/).
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=F7B731&center=true&vCenter=true&width=900&lines=Практика+CTF+и+web+security;Изучение+уязвимостей+и+эксплуатации;HTTP+%7C+Crypto+%7C+Reverse+%7C+OSINT+%7C+PWN;Документирование+решений+и+своя+база+знаний" alt="Typing SVG" />
+</p>
 
-Основная цель репозитория:
-- практика CTF и web security;
-- изучение типовых уязвимостей и техник эксплуатации;
-- развитие навыков разведки, анализа HTTP-запросов, криптоанализа, реверса, OSINT, форензики и PWN;
-- документирование процесса решения задач;
-- ведение собственной базы знаний.
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-DUCKERZ-f7b731?style=for-the-badge" alt="Platform DUCKERZ" />
+  <img src="https://img.shields.io/badge/Solved-14%2F165-2ecc71?style=for-the-badge" alt="Solved 14/165" />
+  <img src="https://img.shields.io/badge/Progress-8.5%25-3498db?style=for-the-badge" alt="Progress 8.5%" />
+</p>
+
+Данный репозиторий содержит мои walkthrough/writeup-отчеты по задачам с платформы [Duckerz](https://duckerz.ru/).
 
 ---
 
