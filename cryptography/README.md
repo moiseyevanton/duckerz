@@ -19,13 +19,14 @@
 | Обратимость | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ hex-строк и свойства обратимости XOR | [Открыть](./Reversibility/) |
 | Полиглот | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ текста, записанного в нескольких форматах кодирования | [Открыть](./Polyglot/) |
 | Смежный | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ скрипта шифрования и результата его работы | [Открыть](./Adjacent/) |
+| Two Time Pad | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Атака на повторное использование ключа в One-Time Pad | [Открыть](./Two_Time_Pad/) |
 
 ---
 
 ## Прогресс 📈
 
 ```text
-4/20
+5/20
 ```
 
 ---
