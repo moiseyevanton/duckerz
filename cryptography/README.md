@@ -20,13 +20,14 @@
 | Полиглот | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ текста, записанного в нескольких форматах кодирования | [Открыть](./Polyglot/) |
 | Смежный | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ скрипта шифрования и результата его работы | [Открыть](./Adjacent/) |
 | Two Time Pad | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Атака на повторное использование ключа в One-Time Pad | [Открыть](./Two_Time_Pad/) |
+| Базированная база | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Последовательное декодирование Base64, Base32 и ASCII-кодов | [Открыть](./base/) |
 
 ---
 
 ## Прогресс 📈
 
 ```text
-5/20
+6/20
 ```
 
 ---
