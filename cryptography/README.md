@@ -18,13 +18,14 @@
 | Брутфорс | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Расшифровка текста, зашифрованного сдвигом Цезаря | [Открыть](./Bruteforce/) |
 | Обратимость | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ hex-строк и свойства обратимости XOR | [Открыть](./Reversibility/) |
 | Полиглот | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ текста, записанного в нескольких форматах кодирования | [Открыть](./Polyglot/) |
+| Смежный | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ скрипта шифрования и результата его работы | [Открыть](./Adjacent/) |
 
 ---
 
 ## Прогресс 📈
 
 ```text
-3/20
+4/20
 ```
 
 ---
