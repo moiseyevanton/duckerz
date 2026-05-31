@@ -1,7 +1,7 @@
 # DUCKERZ Writeups 🐤
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=F7B731&center=true&vCenter=true&width=900&lines=Практика+CTF+и+web+security;Изучение+уязвимостей+и+эксплуатации;HTTP+%7C+Crypto+%7C+Reverse+%7C+OSINT+%7C+PWN;Документирование+решений+и+своя+база+знаний" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=F7B731&center=true&vCenter=true&width=900&lines=CTF+practice+and+web+security;Vulnerability+research+and+exploitation;HTTP+%7C+Crypto+%7C+Reverse+%7C+OSINT+%7C+PWN;Writeups+and+personal+knowledge+base" alt="Typing SVG" />
 </p>
 
 <p align="center">
