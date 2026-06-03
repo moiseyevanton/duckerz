@@ -15,6 +15,7 @@
 
 | Задача | Сложность | Описание | Ссылка |
 |---|---|---|---|
+| Защищенный банк | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск флага в строковых данных Windows PE-бинаря через `strings` и секцию `.rdata` | [Открыть](./SecureBank/) |
 | Забытый пароль | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ Python-скрипта с простой схемой преобразования байтов через ключ `ord()` | [Открыть](./Forgottenpassword/) |
 
 ---
@@ -22,7 +23,7 @@
 ## Прогресс 📈
 
 ```text
-1/23
+2/23
 ```
 
 ---
