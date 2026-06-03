@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-DUCKERZ-f7b731?style=for-the-badge" alt="Platform DUCKERZ" />
-  <img src="https://img.shields.io/badge/Solved-21%2F165-2ecc71?style=for-the-badge" alt="Solved 21/165" />
-  <img src="https://img.shields.io/badge/Progress-12.7%25-3498db?style=for-the-badge" alt="Progress 12.7%" />
+  <img src="https://img.shields.io/badge/Solved-22%2F165-2ecc71?style=for-the-badge" alt="Solved 22/165" />
+  <img src="https://img.shields.io/badge/Progress-13.3%25-3498db?style=for-the-badge" alt="Progress 13.3%" />
 </p>
 
 Данный репозиторий содержит мои walkthrough/writeup-отчеты по задачам с платформы [Duckerz](https://duckerz.ru/).
@@ -26,7 +26,7 @@
 | Cryptography | 6/20 | Задачи на шифры, кодировки, хеши и криптографические ошибки | [Открыть](./cryptography/) |
 | OSINT | 1/15 | Задачи на поиск информации в открытых источниках и анализ цифровых следов | [Открыть](./osint/) |
 | Forensics | 2/18 | Задачи на анализ файлов, дампов, трафика, артефактов и цифровых следов | [Открыть](./forensics/) |
-| PWN | 0/10 | Задачи на эксплуатацию бинарных файлов, память и низкоуровневые уязвимости | [Открыть](./pwn/) |
+| PWN | 1/10 | Задачи на эксплуатацию бинарных файлов, память и низкоуровневые уязвимости | [Открыть](./pwn/) |
 | Hardware | 1/8 | Задачи на схемы, микроконтроллеры, железо и аппаратные артефакты | [Открыть](./hardware/) |
 
 ---
@@ -51,6 +51,7 @@
 | Логинатор | Forensics | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Извлечение флага из URL-запросов `/flag.php/<символ>` в дампе логов | [Открыть](./forensics/Loginator/) |
 | NFT Маркетплейс | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | UNION SQL-инъекция в параметре `category`, чтение `sqlite_master` и извлечение флага из `s3cret.fl4g` | [Открыть](./web/NFT/) |
 | Pincode | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Вход через `admin:admin` и перебор 4-значного PIN-кода с помощью Turbo Intruder | [Открыть](./web/Pincode/) |
+| Предстоящий полет | PWN | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Format string bug: запись `1` в глобальную переменную `has_ticket` и переход в успешную ветку посадки | [Открыть](./pwn/Upcomingflight/) |
 | Правила | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Обход проверки ознакомления и расшифровка строки из успешного `alert` через XOR с ключом `3` | [Открыть](./web/Rules/) |
 | Простой API-сервер | Forensics | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск HTTP-запроса авторизации с `username=hacker` и URL-encoded флагом в pcapng-дампе | [Открыть](./forensics/simple_api/) |
 | Раздача купонов | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | SQL-инъекция в параметре купона, вывод доступных купонов и применение 100% скидки | [Открыть](./web/coupons/) |
@@ -80,6 +81,7 @@
 ├── osint/
 │   └── Magazine/
 ├── pwn/
+│   └── Upcomingflight/
 ├── reverse/
 │   └── Forgottenpassword/
 ├── steganography/
