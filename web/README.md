@@ -19,6 +19,7 @@
 | Сломанный магазин | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Рассинхрон Telegram callback и текущей pending-заявки: покупка частей флага по цене старой дешевой заявки | [Открыть](./Brokenmagazine/) |
 | Cookies with milk | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Cookie tampering: base64-декодирование сессии и подмена `status` на `admin` | [Открыть](./Cookieswithmilk/) |
 | Лысина админа | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Подделка JWT: подбор слабого HS256-secret по `rockyou.txt` и создание токена с `user=admin` | [Открыть](./adminsbaldhead/) |
+| Надежное хранилище | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Path traversal/LFI в параметре `download`: чтение PHP-исходников, SQLite-базы и подбор SHA-512 пароля `administrator` | [Открыть](./Securestorage/) |
 | Скрытая документация | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск скрытой документации, резервного `.env` и вход в админ-панель по найденным учетным данным | [Открыть](./Hiddendoc/) |
 | Полет нормальный | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ клиентского JavaScript, вызов `getFlag()` и XOR-расшифровка флага | [Открыть](./flightisnormal/) |
 | Pincode | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Вход через `admin:admin` и перебор 4-значного PIN-кода с помощью Turbo Intruder | [Открыть](./Pincode/) |
@@ -39,7 +40,7 @@
 ## Прогресс 📈
 
 ```text
-12/33
+13/33
 ```
 
 ---
