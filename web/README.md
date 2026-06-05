@@ -16,6 +16,7 @@
 | Задача | Сложность | Описание | Ссылка |
 |---|---|---|---|
 | Cookies with milk | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Cookie tampering: base64-декодирование сессии и подмена `status` на `admin` | [Открыть](./Cookieswithmilk/) |
+| Лысина админа | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Подделка JWT: подбор слабого HS256-secret по `rockyou.txt` и создание токена с `user=admin` | [Открыть](./adminsbaldhead/) |
 | Скрытая документация | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск скрытой документации, резервного `.env` и вход в админ-панель по найденным учетным данным | [Открыть](./Hiddendoc/) |
 | Полет нормальный | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ клиентского JavaScript, вызов `getFlag()` и XOR-расшифровка флага | [Открыть](./flightisnormal/) |
 | Pincode | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Вход через `admin:admin` и перебор 4-значного PIN-кода с помощью Turbo Intruder | [Открыть](./Pincode/) |
@@ -36,7 +37,7 @@
 ## Прогресс 📈
 
 ```text
-9/33
+10/33
 ```
 
 ---
