@@ -15,6 +15,8 @@
 
 | Задача | Сложность | Описание | Ссылка |
 |---|---|---|---|
+| Поддержка от банка | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | IDOR в чатах поддержки: `chat_id` как MD5 от числового ID и доступ к чужому чату без подделки сессии | [Открыть](./Banksupport/) |
+| Сломанный магазин | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Рассинхрон Telegram callback и текущей pending-заявки: покупка частей флага по цене старой дешевой заявки | [Открыть](./Brokenmagazine/) |
 | Cookies with milk | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Cookie tampering: base64-декодирование сессии и подмена `status` на `admin` | [Открыть](./Cookieswithmilk/) |
 | Лысина админа | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Подделка JWT: подбор слабого HS256-secret по `rockyou.txt` и создание токена с `user=admin` | [Открыть](./adminsbaldhead/) |
 | Скрытая документация | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск скрытой документации, резервного `.env` и вход в админ-панель по найденным учетным данным | [Открыть](./Hiddendoc/) |
@@ -37,7 +39,7 @@
 ## Прогресс 📈
 
 ```text
-10/33
+12/33
 ```
 
 ---
