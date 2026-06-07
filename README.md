@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-DUCKERZ-f7b731?style=for-the-badge" alt="Platform DUCKERZ" />
-  <img src="https://img.shields.io/badge/Solved-28%2F165-2ecc71?style=for-the-badge" alt="Solved 28/165" />
-  <img src="https://img.shields.io/badge/Progress-17.0%25-3498db?style=for-the-badge" alt="Progress 17.0%" />
+  <img src="https://img.shields.io/badge/Solved-29%2F165-2ecc71?style=for-the-badge" alt="Solved 29/165" />
+  <img src="https://img.shields.io/badge/Progress-17.6%25-3498db?style=for-the-badge" alt="Progress 17.6%" />
 </p>
 
 Данный репозиторий содержит мои walkthrough/writeup-отчеты по задачам с платформы [Duckerz](https://duckerz.ru/).
@@ -20,7 +20,7 @@
 | Категория | Прогресс | Описание | Ссылка |
 |---|---:|---|---|
 | Steganography | 1/23 | Задачи на поиск скрытых данных в изображениях, файлах и метаданных | [Открыть](./steganography/) |
-| Web | 14/33 | Задачи на анализ веб-приложений, HTTP, cookies, сессий и контроля доступа | [Открыть](./web/) |
+| Web | 15/33 | Задачи на анализ веб-приложений, HTTP, cookies, сессий и контроля доступа | [Открыть](./web/) |
 | Reverse | 2/23 | Задачи на реверс-инжиниринг бинарных файлов и восстановление логики программ | [Открыть](./reverse/) |
 | Misc | 0/15 | Разные задачи: нестандартная логика, кодировки, файлы и небольшие расследования | [Открыть](./misc/) |
 | Cryptography | 6/20 | Задачи на шифры, кодировки, хеши и криптографические ошибки | [Открыть](./cryptography/) |
@@ -48,6 +48,7 @@
 | Сломанный магазин | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Рассинхрон Telegram callback и текущей pending-заявки: покупка частей флага по цене старой дешевой заявки | [Открыть](./web/Brokenmagazine/) |
 | Cookies with milk | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ cookie, base64-декодирование сессии и подмена роли пользователя для доступа к админ-панели | [Открыть](./web/Cookieswithmilk/) |
 | Лысина админа | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Подделка JWT: подбор слабого HS256-secret по `rockyou.txt` и создание токена с `user=admin` | [Открыть](./web/adminsbaldhead/) |
+| Умный переулок | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Старый маршрут `/api/v1/video` раскрывает ссылку на видеофайл, в кадре которого виден флаг | [Открыть](./web/SmartAlley/) |
 | Студия анимаций | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | XXE в обработке SVG: чтение локальных файлов через внешнюю XML-сущность и получение флага из `/app/flag.txt` | [Открыть](./web/Animationstudio/) |
 | Надежное хранилище | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Path traversal/LFI в параметре `download`: чтение PHP-исходников, SQLite-базы и подбор SHA-512 пароля `administrator` | [Открыть](./web/Securestorage/) |
 | Скрытая документация | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск скрытой документации, резервного `.env` и вход в админ-панель по найденным учетным данным | [Открыть](./web/Hiddendoc/) |
@@ -99,6 +100,7 @@
     ├── Brokenmagazine/
     ├── Cookieswithmilk/
     ├── Animationstudio/
+    ├── SmartAlley/
     ├── coupons/
     ├── flightisnormal/
     ├── Hiddendoc/
