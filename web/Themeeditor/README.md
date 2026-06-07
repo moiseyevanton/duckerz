@@ -4,7 +4,7 @@
 
 Задача: **Редактор тем**
 
-Сложность: ![Medium](https://img.shields.io/badge/Medium-Orange?style=for-the-badge)
+Сложность: ![Medium](https://img.shields.io/badge/Medium-f39c12?style=for-the-badge)
 
 Описание с платформы:
 
