@@ -17,13 +17,14 @@
 |---|---|---|---|
 | Защищенный банк | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск флага в строковых данных Windows PE-бинаря через `strings` и секцию `.rdata` | [Открыть](./SecureBank/) |
 | Забытый пароль | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ Python-скрипта с простой схемой преобразования байтов через ключ `ord()` | [Открыть](./Forgottenpassword/) |
+| Матрёшка | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Многослойный шифр в `.pyc`: декомпиляция байткода и обращение цепочки binary/atbash/reverse/rot13-сдвиг/XOR | [Открыть](./Matryoshka/) |
 
 ---
 
 ## Прогресс 📈
 
 ```text
-2/23
+3/23
 ```
 
 ---
