@@ -17,13 +17,14 @@
 |---|---|---|---|
 | Логинатор | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Извлечение флага из URL-запросов `/flag.php/<символ>` в дампе логов | [Открыть](./Loginator/) |
 | Простой API-сервер | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск HTTP-запроса авторизации с `username=hacker` и URL-encoded флагом в pcapng-дампе | [Открыть](./simple_api/) |
+| Ищейка | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск флага в открытом виде в дампе RAM VMware (`.vmem`) через `strings` + `grep PolyCTF` | [Открыть](./Bloodhound/) |
 
 ---
 
 ## Прогресс 📈
 
 ```text
-2/18
+3/18
 ```
 
 ---
