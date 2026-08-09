@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-DUCKERZ-f7b731?style=for-the-badge" alt="Platform DUCKERZ" />
-  <img src="https://img.shields.io/badge/Solved-35%2F165-2ecc71?style=for-the-badge" alt="Solved 35/165" />
-  <img src="https://img.shields.io/badge/Progress-21.2%25-3498db?style=for-the-badge" alt="Progress 21.2%" />
+  <img src="https://img.shields.io/badge/Solved-36%2F165-2ecc71?style=for-the-badge" alt="Solved 36/165" />
+  <img src="https://img.shields.io/badge/Progress-21.8%25-3498db?style=for-the-badge" alt="Progress 21.8%" />
 </p>
 
 Данный репозиторий содержит мои walkthrough/writeup-отчеты по задачам с платформы [Duckerz](https://duckerz.ru/).
@@ -22,7 +22,7 @@
 | Steganography | 1/23 | Задачи на поиск скрытых данных в изображениях, файлах и метаданных | [Открыть](./steganography/) |
 | Web | 17/33 | Задачи на анализ веб-приложений, HTTP, cookies, сессий и контроля доступа | [Открыть](./web/) |
 | Reverse | 4/23 | Задачи на реверс-инжиниринг бинарных файлов и восстановление логики программ | [Открыть](./reverse/) |
-| Misc | 0/15 | Разные задачи: нестандартная логика, кодировки, файлы и небольшие расследования | [Открыть](./misc/) |
+| Misc | 1/15 | Разные задачи: нестандартная логика, кодировки, файлы и небольшие расследования | [Открыть](./misc/) |
 | Cryptography | 6/20 | Задачи на шифры, кодировки, хеши и криптографические ошибки | [Открыть](./cryptography/) |
 | OSINT | 1/15 | Задачи на поиск информации в открытых источниках и анализ цифровых следов | [Открыть](./osint/) |
 | Forensics | 4/18 | Задачи на анализ файлов, дампов, трафика, артефактов и цифровых следов | [Открыть](./forensics/) |
@@ -70,6 +70,7 @@
 | Раздача купонов | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | SQL-инъекция в параметре купона, вывод доступных купонов и применение 100% скидки | [Открыть](./web/coupons/) |
 | Сила воли | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Подмена JSON-параметра `clicks` в запросе покупки флага через Burp Repeater | [Открыть](./web/Willpower/) |
 | Web polygon | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Получение частей флага через разные HTTP-методы и GET-параметр на `/flag` | [Открыть](./web/webpolygon/) |
+| Скобки | Misc | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Файл из символов `+-.<>[]` — программа на Brainfuck; исполняем интерпретатором и получаем флаг | [Открыть](./misc/Parentheses/) |
 
 ---
 
@@ -93,6 +94,7 @@
 ├── hardware/
 │   └── Wayhome/
 ├── misc/
+│   └── Parentheses/
 ├── osint/
 │   └── Magazine/
 ├── pwn/
