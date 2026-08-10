@@ -19,13 +19,14 @@
 | Простой API-сервер | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск HTTP-запроса авторизации с `username=hacker` и URL-encoded флагом в pcapng-дампе | [Открыть](./simple_api/) |
 | Ищейка | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск флага в открытом виде в дампе RAM VMware (`.vmem`) через `strings` + `grep PolyCTF` | [Открыть](./Bloodhound/) |
 | Менеджер | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Разбор журнала событий Windows (`.evtx`) через `python-evtx`: событие Ntfs 98 связывает `HarddiskVolume4` с `DriveName` (GUID тома) | [Открыть](./Manager/) |
+| Реинкарнация | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Восстановление удалённых файлов из ext4-образа карвингом по сигнатуре gzip и снятие матрёшки кодировок Base32→Base64→TAR→gzip | [Открыть](./Reninkation/) |
 
 ---
 
 ## Прогресс 📈
 
 ```text
-4/18
+5/18
 ```
 
 ---
