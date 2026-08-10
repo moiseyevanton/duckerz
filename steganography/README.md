@@ -16,13 +16,14 @@
 | Задача | Сложность | Описание | Ссылка |
 |---|---|---|---|
 | Классное фото | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Визуальная LSB-стеганография в младшем бите синего канала PNG-изображения | [Открыть](./Coolphoto/) |
+| Спектр звука | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Флаг нарисован в спектрограмме WAV: строим спектр через `sox` и выпрямляем `magick -flip` | [Открыть](./Soundspectrum/) |
 
 ---
 
 ## Прогресс 📈
 
 ```text
-1/23
+2/23
 ```
 
 ---

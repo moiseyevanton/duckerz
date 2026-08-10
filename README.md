@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-DUCKERZ-f7b731?style=for-the-badge" alt="Platform DUCKERZ" />
-  <img src="https://img.shields.io/badge/Solved-37%2F165-2ecc71?style=for-the-badge" alt="Solved 37/165" />
-  <img src="https://img.shields.io/badge/Progress-22.4%25-3498db?style=for-the-badge" alt="Progress 22.4%" />
+  <img src="https://img.shields.io/badge/Solved-38%2F165-2ecc71?style=for-the-badge" alt="Solved 38/165" />
+  <img src="https://img.shields.io/badge/Progress-23.0%25-3498db?style=for-the-badge" alt="Progress 23.0%" />
 </p>
 
 Данный репозиторий содержит мои walkthrough/writeup-отчеты по задачам с платформы [Duckerz](https://duckerz.ru/).
@@ -19,7 +19,7 @@
 
 | Категория | Прогресс | Описание | Ссылка |
 |---|---:|---|---|
-| Steganography | 1/23 | Задачи на поиск скрытых данных в изображениях, файлах и метаданных | [Открыть](./steganography/) |
+| Steganography | 2/23 | Задачи на поиск скрытых данных в изображениях, файлах и метаданных | [Открыть](./steganography/) |
 | Web | 17/33 | Задачи на анализ веб-приложений, HTTP, cookies, сессий и контроля доступа | [Открыть](./web/) |
 | Reverse | 4/23 | Задачи на реверс-инжиниринг бинарных файлов и восстановление логики программ | [Открыть](./reverse/) |
 | Misc | 1/15 | Разные задачи: нестандартная логика, кодировки, файлы и небольшие расследования | [Открыть](./misc/) |
@@ -44,6 +44,7 @@
 | Журнал | OSINT | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск оригинального выпуска журнала по фрагменту обложки и нахождение программиста 39 лет | [Открыть](./osint/Magazine/) |
 | Путь домой | Hardware | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Копирование значения с красного ключа-таблетки на синий через программатор KeyCopy | [Открыть](./hardware/Wayhome/) |
 | Классное фото | Steganography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Визуальная LSB-стеганография в младшем бите синего канала PNG-изображения | [Открыть](./steganography/Coolphoto/) |
+| Спектр звука | Steganography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Флаг нарисован в спектрограмме WAV: строим спектр через `sox` и выпрямляем `magick -flip` | [Открыть](./steganography/Soundspectrum/) |
 | Поддержка от банка | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | IDOR в чатах поддержки: `chat_id` как MD5 от числового ID и доступ к чужому чату без подделки сессии | [Открыть](./web/Banksupport/) |
 | Сломанный магазин | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Рассинхрон Telegram callback и текущей pending-заявки: покупка частей флага по цене старой дешевой заявки | [Открыть](./web/Brokenmagazine/) |
 | Cookies with milk | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ cookie, base64-декодирование сессии и подмена роли пользователя для доступа к админ-панели | [Открыть](./web/Cookieswithmilk/) |
@@ -107,7 +108,8 @@
 │   ├── Matryoshka/
 │   └── SecureBank/
 ├── steganography/
-│   └── Coolphoto/
+│   ├── Coolphoto/
+│   └── Soundspectrum/
 └── web/
     ├── adminsbaldhead/
     ├── Aspiringjuggler/
