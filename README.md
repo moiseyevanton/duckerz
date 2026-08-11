@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-DUCKERZ-f7b731?style=for-the-badge" alt="Platform DUCKERZ" />
-  <img src="https://img.shields.io/badge/Solved-38%2F165-2ecc71?style=for-the-badge" alt="Solved 38/165" />
-  <img src="https://img.shields.io/badge/Progress-23.0%25-3498db?style=for-the-badge" alt="Progress 23.0%" />
+  <img src="https://img.shields.io/badge/Solved-39%2F165-2ecc71?style=for-the-badge" alt="Solved 39/165" />
+  <img src="https://img.shields.io/badge/Progress-23.6%25-3498db?style=for-the-badge" alt="Progress 23.6%" />
 </p>
 
 Данный репозиторий содержит мои walkthrough/writeup-отчеты по задачам с платформы [Duckerz](https://duckerz.ru/).
@@ -23,7 +23,7 @@
 | Web | 17/33 | Задачи на анализ веб-приложений, HTTP, cookies, сессий и контроля доступа | [Открыть](./web/) |
 | Reverse | 4/23 | Задачи на реверс-инжиниринг бинарных файлов и восстановление логики программ | [Открыть](./reverse/) |
 | Misc | 1/15 | Разные задачи: нестандартная логика, кодировки, файлы и небольшие расследования | [Открыть](./misc/) |
-| Cryptography | 6/20 | Задачи на шифры, кодировки, хеши и криптографические ошибки | [Открыть](./cryptography/) |
+| Cryptography | 7/20 | Задачи на шифры, кодировки, хеши и криптографические ошибки | [Открыть](./cryptography/) |
 | OSINT | 1/15 | Задачи на поиск информации в открытых источниках и анализ цифровых следов | [Открыть](./osint/) |
 | Forensics | 5/18 | Задачи на анализ файлов, дампов, трафика, артефактов и цифровых следов | [Открыть](./forensics/) |
 | PWN | 1/10 | Задачи на эксплуатацию бинарных файлов, память и низкоуровневые уязвимости | [Открыть](./pwn/) |
@@ -41,6 +41,7 @@
 | Смежный | Cryptography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Обращение аффинного шифра через обратное число по модулю 26 | [Открыть](./cryptography/Adjacent/) |
 | Two Time Pad | Cryptography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Атака на повторное использование ключа в One-Time Pad через XOR | [Открыть](./cryptography/Two_Time_Pad/) |
 | Базированная база | Cryptography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Последовательное декодирование Base64, Base32 и ASCII-кодов | [Открыть](./cryptography/base/) |
+| Ни в чём не ошибся | Cryptography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | RSA: `e + p` напечатано вместо `e` — утечка `p`, восстановление ключа и расшифровка `ct` | [Открыть](./cryptography/singlemistake/) |
 | Журнал | OSINT | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск оригинального выпуска журнала по фрагменту обложки и нахождение программиста 39 лет | [Открыть](./osint/Magazine/) |
 | Путь домой | Hardware | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Копирование значения с красного ключа-таблетки на синий через программатор KeyCopy | [Открыть](./hardware/Wayhome/) |
 | Классное фото | Steganography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Визуальная LSB-стеганография в младшем бите синего канала PNG-изображения | [Открыть](./steganography/Coolphoto/) |
@@ -87,7 +88,8 @@
 │   ├── Polyglot/
 │   ├── Reversibility/
 │   ├── Two_Time_Pad/
-│   └── base/
+│   ├── base/
+│   └── singlemistake/
 ├── forensics/
 │   ├── Bloodhound/
 │   ├── Loginator/

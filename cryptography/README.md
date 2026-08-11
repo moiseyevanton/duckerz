@@ -21,13 +21,14 @@
 | Смежный | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Анализ скрипта шифрования и результата его работы | [Открыть](./Adjacent/) |
 | Two Time Pad | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Атака на повторное использование ключа в One-Time Pad | [Открыть](./Two_Time_Pad/) |
 | Базированная база | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Последовательное декодирование Base64, Base32 и ASCII-кодов | [Открыть](./base/) |
+| Ни в чём не ошибся | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | RSA: автор напечатал `e + p` вместо `e` — утечка `p`, восстановление ключа и расшифровка | [Открыть](./singlemistake/) |
 
 ---
 
 ## Прогресс 📈
 
 ```text
-6/20
+7/20
 ```
 
 ---
