@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-DUCKERZ-f7b731?style=for-the-badge" alt="Platform DUCKERZ" />
-  <img src="https://img.shields.io/badge/Solved-41%2F165-2ecc71?style=for-the-badge" alt="Solved 41/165" />
-  <img src="https://img.shields.io/badge/Progress-24.8%25-3498db?style=for-the-badge" alt="Progress 24.8%" />
+  <img src="https://img.shields.io/badge/Solved-42%2F165-2ecc71?style=for-the-badge" alt="Solved 42/165" />
+  <img src="https://img.shields.io/badge/Progress-25.5%25-3498db?style=for-the-badge" alt="Progress 25.5%" />
 </p>
 
 Данный репозиторий содержит мои walkthrough/writeup-отчеты по задачам с платформы [Duckerz](https://duckerz.ru/).
@@ -25,7 +25,7 @@
 | Misc | 1/15 | Разные задачи: нестандартная логика, кодировки, файлы и небольшие расследования | [Открыть](./misc/) |
 | Cryptography | 7/20 | Задачи на шифры, кодировки, хеши и криптографические ошибки | [Открыть](./cryptography/) |
 | OSINT | 1/15 | Задачи на поиск информации в открытых источниках и анализ цифровых следов | [Открыть](./osint/) |
-| Forensics | 6/18 | Задачи на анализ файлов, дампов, трафика, артефактов и цифровых следов | [Открыть](./forensics/) |
+| Forensics | 7/18 | Задачи на анализ файлов, дампов, трафика, артефактов и цифровых следов | [Открыть](./forensics/) |
 | PWN | 1/10 | Задачи на эксплуатацию бинарных файлов, память и низкоуровневые уязвимости | [Открыть](./pwn/) |
 | Hardware | 1/8 | Задачи на схемы, микроконтроллеры, железо и аппаратные артефакты | [Открыть](./hardware/) |
 
@@ -72,6 +72,7 @@
 | Менеджер | Forensics | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Разбор журнала событий Windows (`.evtx`) через `python-evtx`: событие Ntfs 98 связывает `HarddiskVolume4` с `DriveName` (GUID тома) | [Открыть](./forensics/Manager/) |
 | Реинкарнация | Forensics | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Восстановление удалённых файлов из ext4-образа карвингом по сигнатуре gzip и снятие матрёшки кодировок Base32→Base64→TAR→gzip | [Открыть](./forensics/Reninkation/) |
 | Мим | Forensics | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Перехваченный MITM-трафик (pcapng): фильтр `http`, экспорт `barabulka.jpg` через Wireshark Export Objects — флаг на картинке | [Открыть](./forensics/Mime/) |
+| Сверхсекретный Шпион | Forensics | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Скрытый канал в UDP-портах: `srcport−30000` = индекс, символ = `32768−dstport` — собираем флаг из заголовков | [Открыть](./forensics/TopSecretSpy/) |
 | Раздача купонов | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | SQL-инъекция в параметре купона, вывод доступных купонов и применение 100% скидки | [Открыть](./web/coupons/) |
 | Сила воли | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Подмена JSON-параметра `clicks` в запросе покупки флага через Burp Repeater | [Открыть](./web/Willpower/) |
 | Web polygon | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Получение частей флага через разные HTTP-методы и GET-параметр на `/flag` | [Открыть](./web/webpolygon/) |
@@ -98,7 +99,8 @@
 │   ├── Manager/
 │   ├── Mime/
 │   ├── Reninkation/
-│   └── simple_api/
+│   ├── simple_api/
+│   └── TopSecretSpy/
 ├── hardware/
 │   └── Wayhome/
 ├── misc/
