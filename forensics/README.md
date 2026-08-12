@@ -22,13 +22,14 @@
 | Реинкарнация | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Восстановление удалённых файлов из ext4-образа карвингом по сигнатуре gzip и снятие матрёшки кодировок Base32→Base64→TAR→gzip | [Открыть](./Reninkation/) |
 | Мим | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Перехваченный MITM-трафик (pcapng): фильтр `http`, экспорт `barabulka.jpg` через Wireshark Export Objects — флаг на картинке | [Открыть](./Mime/) |
 | Сверхсекретный Шпион | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Скрытый канал в UDP-портах: `srcport−30000` = индекс, символ = `32768−dstport` — собираем флаг из заголовков | [Открыть](./TopSecretSpy/) |
+| Новогодняя открытка | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | К JPEG дописан WAV-трек; флаг в спектрограмме аудио, виден только при zoom по времени (`sox trim`) | [Открыть](./NewYearscard/) |
 
 ---
 
 ## Прогресс 📈
 
 ```text
-7/18
+8/18
 ```
 
 ---

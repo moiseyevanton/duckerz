@@ -23,6 +23,14 @@ venv/
 *.E01
 *.aff
 
+# Крупные сетевые дампы
+*.pcapng
+
 # Промежуточные файлы разбора
 manager.xml
 err.log
+
+# Крупные производные артефакты задач (содержат флаг / весят десятки МБ)
+forensics/NewYearscard/NewYearCard.jpg
+forensics/NewYearscard/hidden.wav
+forensics/NewYearscard/new_year_card.pcapng
