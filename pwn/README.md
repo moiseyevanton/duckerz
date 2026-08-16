@@ -16,13 +16,14 @@
 | Задача | Сложность | Описание | Ссылка |
 |---|---|---|---|
 | Предстоящий полет | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Format string bug: запись `1` в глобальную переменную `has_ticket` и переход в успешную ветку посадки | [Открыть](./Upcomingflight/) |
+| Простой калькулятор | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Произвольная запись (индекс без нижней границы) → перезапись `puts@got` на `system@plt`, затем `greet("/bin/sh")` | [Открыть](./Simplecalculator/) |
 
 ---
 
 ## Прогресс 📈
 
 ```text
-1/10
+2/10
 ```
 
 ---

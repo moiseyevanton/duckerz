@@ -34,3 +34,6 @@ err.log
 forensics/NewYearscard/NewYearCard.jpg
 forensics/NewYearscard/hidden.wav
 forensics/NewYearscard/new_year_card.pcapng
+
+# Локальные flag-файлы pwn-сервисов
+pwn/Simplecalculator/simple_calc/flag

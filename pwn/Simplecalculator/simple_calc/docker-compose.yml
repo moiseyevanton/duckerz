@@ -1,0 +1,7 @@
+version: "2.29"
+
+services:
+  simple_calc:
+    build: .
+    ports:
+      - "5000:20000"
