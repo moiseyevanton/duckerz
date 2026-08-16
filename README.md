@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-DUCKERZ-f7b731?style=for-the-badge" alt="Platform DUCKERZ" />
-  <img src="https://img.shields.io/badge/Solved-47%2F165-2ecc71?style=for-the-badge" alt="Solved 47/165" />
-  <img src="https://img.shields.io/badge/Progress-28.5%25-3498db?style=for-the-badge" alt="Progress 28.5%" />
+  <img src="https://img.shields.io/badge/Solved-48%2F165-2ecc71?style=for-the-badge" alt="Solved 48/165" />
+  <img src="https://img.shields.io/badge/Progress-29.1%25-3498db?style=for-the-badge" alt="Progress 29.1%" />
 </p>
 
 Данный репозиторий содержит мои walkthrough/writeup-отчеты по задачам с платформы [Duckerz](https://duckerz.ru/).
@@ -24,7 +24,7 @@
 | Reverse | 5/23 | Задачи на реверс-инжиниринг бинарных файлов и восстановление логики программ | [Открыть](./reverse/) |
 | Misc | 1/15 | Разные задачи: нестандартная логика, кодировки, файлы и небольшие расследования | [Открыть](./misc/) |
 | Cryptography | 8/20 | Задачи на шифры, кодировки, хеши и криптографические ошибки | [Открыть](./cryptography/) |
-| OSINT | 1/15 | Задачи на поиск информации в открытых источниках и анализ цифровых следов | [Открыть](./osint/) |
+| OSINT | 2/15 | Задачи на поиск информации в открытых источниках и анализ цифровых следов | [Открыть](./osint/) |
 | Forensics | 10/18 | Задачи на анализ файлов, дампов, трафика, артефактов и цифровых следов | [Открыть](./forensics/) |
 | PWN | 1/10 | Задачи на эксплуатацию бинарных файлов, память и низкоуровневые уязвимости | [Открыть](./pwn/) |
 | Hardware | 1/8 | Задачи на схемы, микроконтроллеры, железо и аппаратные артефакты | [Открыть](./hardware/) |
@@ -44,6 +44,7 @@
 | Ни в чём не ошибся | Cryptography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | RSA: `e + p` напечатано вместо `e` — утечка `p`, восстановление ключа и расшифровка `ct` | [Открыть](./cryptography/singlemistake/) |
 | Только RSA | Cryptography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | RSA как OSINT: факторизация `n` через factordb.com (слабый ключ, неравные `p`,`q`) → сбор ключа и расшифровка | [Открыть](./cryptography/RSAonly/) |
 | Журнал | OSINT | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск оригинального выпуска журнала по фрагменту обложки и нахождение программиста 39 лет | [Открыть](./osint/Magazine/) |
+| Снеговик | OSINT | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | GEOINT: по вывеске и фасаду опознан СПбПУ, точка съёмки найдена через Яндекс-панорамы (±5 м) | [Открыть](./osint/Snowman/) |
 | Путь домой | Hardware | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Копирование значения с красного ключа-таблетки на синий через программатор KeyCopy | [Открыть](./hardware/Wayhome/) |
 | Классное фото | Steganography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Визуальная LSB-стеганография в младшем бите синего канала PNG-изображения | [Открыть](./steganography/Coolphoto/) |
 | Спектр звука | Steganography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Флаг нарисован в спектрограмме WAV: строим спектр через `sox` и выпрямляем `magick -flip` | [Открыть](./steganography/Soundspectrum/) |
@@ -115,7 +116,8 @@
 ├── misc/
 │   └── Parentheses/
 ├── osint/
-│   └── Magazine/
+│   ├── Magazine/
+│   └── Snowman/
 ├── pwn/
 │   └── Upcomingflight/
 ├── reverse/
