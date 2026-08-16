@@ -17,13 +17,14 @@
 |---|---|---|---|
 | Классное фото | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Визуальная LSB-стеганография в младшем бите синего канала PNG-изображения | [Открыть](./Coolphoto/) |
 | Спектр звука | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Флаг нарисован в спектрограмме WAV: строим спектр через `sox` и выпрямляем `magick -flip` | [Открыть](./Soundspectrum/) |
+| Наименее значимый мем | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | LSB-стеганография в PNG: `zsteg` находит флаг в младшем бите RGB (`b1,rgb,lsb`) | [Открыть](./leastsignificantmeme/) |
 
 ---
 
 ## Прогресс 📈
 
 ```text
-2/23
+3/23
 ```
 
 ---
