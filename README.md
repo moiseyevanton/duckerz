@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-DUCKERZ-f7b731?style=for-the-badge" alt="Platform DUCKERZ" />
-  <img src="https://img.shields.io/badge/Solved-49%2F165-2ecc71?style=for-the-badge" alt="Solved 49/165" />
-  <img src="https://img.shields.io/badge/Progress-29.7%25-3498db?style=for-the-badge" alt="Progress 29.7%" />
+  <img src="https://img.shields.io/badge/Solved-50%2F165-2ecc71?style=for-the-badge" alt="Solved 50/165" />
+  <img src="https://img.shields.io/badge/Progress-30.3%25-3498db?style=for-the-badge" alt="Progress 30.3%" />
 </p>
 
 Данный репозиторий содержит мои walkthrough/writeup-отчеты по задачам с платформы [Duckerz](https://duckerz.ru/).
@@ -23,7 +23,7 @@
 | Web | 17/33 | Задачи на анализ веб-приложений, HTTP, cookies, сессий и контроля доступа | [Открыть](./web/) |
 | Reverse | 5/23 | Задачи на реверс-инжиниринг бинарных файлов и восстановление логики программ | [Открыть](./reverse/) |
 | Misc | 1/15 | Разные задачи: нестандартная логика, кодировки, файлы и небольшие расследования | [Открыть](./misc/) |
-| Cryptography | 8/20 | Задачи на шифры, кодировки, хеши и криптографические ошибки | [Открыть](./cryptography/) |
+| Cryptography | 9/20 | Задачи на шифры, кодировки, хеши и криптографические ошибки | [Открыть](./cryptography/) |
 | OSINT | 2/15 | Задачи на поиск информации в открытых источниках и анализ цифровых следов | [Открыть](./osint/) |
 | Forensics | 10/18 | Задачи на анализ файлов, дампов, трафика, артефактов и цифровых следов | [Открыть](./forensics/) |
 | PWN | 2/10 | Задачи на эксплуатацию бинарных файлов, память и низкоуровневые уязвимости | [Открыть](./pwn/) |
@@ -43,6 +43,7 @@
 | Базированная база | Cryptography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Последовательное декодирование Base64, Base32 и ASCII-кодов | [Открыть](./cryptography/base/) |
 | Ни в чём не ошибся | Cryptography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | RSA: `e + p` напечатано вместо `e` — утечка `p`, восстановление ключа и расшифровка `ct` | [Открыть](./cryptography/singlemistake/) |
 | Только RSA | Cryptography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | RSA как OSINT: факторизация `n` через factordb.com (слабый ключ, неравные `p`,`q`) → сбор ключа и расшифровка | [Открыть](./cryptography/RSAonly/) |
+| Туда-сюда | Cryptography | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | XOR каждого символа с его индексом; XOR обратен сам себе → дешифр тем же алгоритмом | [Открыть](./cryptography/Backandforth/) |
 | Журнал | OSINT | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Поиск оригинального выпуска журнала по фрагменту обложки и нахождение программиста 39 лет | [Открыть](./osint/Magazine/) |
 | Снеговик | OSINT | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | GEOINT: по вывеске и фасаду опознан СПбПУ, точка съёмки найдена через Яндекс-панорамы (±5 м) | [Открыть](./osint/Snowman/) |
 | Путь домой | Hardware | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Копирование значения с красного ключа-таблетки на синий через программатор KeyCopy | [Открыть](./hardware/Wayhome/) |
@@ -94,6 +95,7 @@
 ├── README.md
 ├── cryptography/
 │   ├── Adjacent/
+│   ├── Backandforth/
 │   ├── Bruteforce/
 │   ├── Polyglot/
 │   ├── RSAonly/
