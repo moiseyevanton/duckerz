@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-DUCKERZ-f7b731?style=for-the-badge" alt="Platform DUCKERZ" />
-  <img src="https://img.shields.io/badge/Solved-50%2F165-2ecc71?style=for-the-badge" alt="Solved 50/165" />
-  <img src="https://img.shields.io/badge/Progress-30.3%25-3498db?style=for-the-badge" alt="Progress 30.3%" />
+  <img src="https://img.shields.io/badge/Solved-51%2F165-2ecc71?style=for-the-badge" alt="Solved 51/165" />
+  <img src="https://img.shields.io/badge/Progress-30.9%25-3498db?style=for-the-badge" alt="Progress 30.9%" />
 </p>
 
 Данный репозиторий содержит мои walkthrough/writeup-отчеты по задачам с платформы [Duckerz](https://duckerz.ru/).
@@ -21,7 +21,7 @@
 |---|---:|---|---|
 | Steganography | 3/23 | Задачи на поиск скрытых данных в изображениях, файлах и метаданных | [Открыть](./steganography/) |
 | Web | 17/33 | Задачи на анализ веб-приложений, HTTP, cookies, сессий и контроля доступа | [Открыть](./web/) |
-| Reverse | 5/23 | Задачи на реверс-инжиниринг бинарных файлов и восстановление логики программ | [Открыть](./reverse/) |
+| Reverse | 6/23 | Задачи на реверс-инжиниринг бинарных файлов и восстановление логики программ | [Открыть](./reverse/) |
 | Misc | 1/15 | Разные задачи: нестандартная логика, кодировки, файлы и небольшие расследования | [Открыть](./misc/) |
 | Cryptography | 9/20 | Задачи на шифры, кодировки, хеши и криптографические ошибки | [Открыть](./cryptography/) |
 | OSINT | 2/15 | Задачи на поиск информации в открытых источниках и анализ цифровых следов | [Открыть](./osint/) |
@@ -66,6 +66,7 @@
 | Матрёшка | Reverse | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Многослойный шифр в `.pyc`: декомпиляция байткода и обращение цепочки binary/atbash/reverse/rot13-сдвиг/XOR | [Открыть](./reverse/Matryoshka/) |
 | Очень защищённый банк | Reverse | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | PE32+ x86-64: SHA-256-проверка пина в Ghidra, обход через патч `jne`→`nop` в radare2 и запуск под wine | [Открыть](./reverse/Ahighlysecurebank/) |
 | ПлюсМинус | Reverse | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | ELF x86-64 (not stripped): `decrypt_flag` вычитает 10 из байтов `encrypted_flag` — обращаем сдвиг Цезаря | [Открыть](./reverse/PlusMinus/) |
+| Разминка | Reverse | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | ELF x86-64 (not stripped): `transform_string` крутит байты `(b<<3)\|(b>>5)` = ROL 3 — обращаем через ROR 3 над `encrypted` | [Открыть](./reverse/Warm-up/) |
 | Логинатор | Forensics | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Извлечение флага из URL-запросов `/flag.php/<символ>` в дампе логов | [Открыть](./forensics/Loginator/) |
 | NFT Маркетплейс | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | UNION SQL-инъекция в параметре `category`, чтение `sqlite_master` и извлечение флага из `s3cret.fl4g` | [Открыть](./web/NFT/) |
 | Pincode | Web | ![Easy](https://img.shields.io/badge/Easy-Green?style=for-the-badge) | Вход через `admin:admin` и перебор 4-значного PIN-кода с помощью Turbo Intruder | [Открыть](./web/Pincode/) |
